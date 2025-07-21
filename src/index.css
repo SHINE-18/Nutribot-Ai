@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* --color-light: #ffffff; */
+  --color-dark: #000000;
+}
+
+.accent-text {
+  color: #475569; /* text-slate-600 */
+}
+
+body {
+  font-family:
+    "Inter Variable",
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    "Noto Sans",
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    "Noto Color Emoji";
+  color: var(--color-dark);
+  background: var(--color-light);
+}
+
+/* only use this to update the style of the auth input fields. use a different class for all other input fields */
+.auth-input-field {
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.75rem;
+.auth-button {
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-radius: 0.5rem; /* rounded */
+  background: #3b82f6; /* bg-primary */
+  color: #fff;
+  font-weight: 600;
+  transition: background-color 0.2s;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.05); /* shadow-sm */
+  outline: none;
+  border: none;
+}
+.auth-button:hover {
+  background: #2563eb; /* bg-primary-hover */
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10); /* hover:shadow */
+}
+.auth-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+  border: 1px solid #e5e7eb; /* border-gray-200 */
+  outline: none;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.05); /* shadow-sm */
+  transition: box-shadow 0.2s;
+}
+.auth-input-field:focus {
+  border-color: #3b82f6; /* primary */
+  box-shadow: 0 0 0 1px #3b82f6; /* focus:ring-1 focus:ring-primary */
+}
+.auth-input-field:hover {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10); /* hover:shadow */
+}
+
+/* only use this to update the style of the auth buttons. use the button class for all other buttons */
+.auth-button {
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-radius: 0.5rem; /* rounded */
+  background: #3b82f6; /* bg-primary */
+  color: #fff;
+  font-weight: 600;
+  transition: background-color 0.2s;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.05); /* shadow-sm */
+  outline: none;
+  border: none;
+}
+.auth-button:hover {
+  background: #2563eb; /* bg-primary-hover */
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10); /* hover:shadow */
+}
+.auth-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
