@@ -1,29 +1,86 @@
-# Health Food Advisor Chatbot
-  
-This is a project built with [Chef](https://chef.convex.dev) using [Convex](https://convex.dev) as its backend.
- You can find docs about Chef with useful information like how to deploy to production [here](https://docs.convex.dev/chef).
-  
-This project is connected to the Convex deployment named [`honorable-barracuda-624`](https://dashboard.convex.dev/d/honorable-barracuda-624).
-  
-## Project structure
-  
-The frontend code is in the `app` directory and is built with [Vite](https://vitejs.dev/).
-  
-The backend code is in the `convex` directory.
-  
-`npm run dev` will start the frontend and backend servers.
+# 🥦 NutriBot-Ai — Your Personal AI Food Assistant
 
-## App authentication
+Hey there! 👋  
+Welcome to NutriBot-Ai, a project I built during the **AI GTU IBM SkillsBuild Summer Internship 2025**.
 
-Chef apps use [Convex Auth](https://auth.convex.dev/) with Anonymous auth for easy sign in. You may wish to change this before deploying your app.
+The goal?  
+To help people like you and me figure out how healthy a food item is, get personalized advice, and make smarter food decisions — all with the power of AI.
 
-## Developing and deploying your app
+---
 
-Check out the [Convex docs](https://docs.convex.dev/) for more information on how to develop with Convex.
-* If you're new to Convex, the [Overview](https://docs.convex.dev/understanding/) is a good place to start
-* Check out the [Hosting and Deployment](https://docs.convex.dev/production/) docs for how to deploy your app
-* Read the [Best Practices](https://docs.convex.dev/understanding/best-practices/) guide for tips on how to improve you app further
+## 🌐 Live Demo
 
-## HTTP API
+- 🔗 Web App: [NutriBot Live](https://honorable-barracuda-624.convex.app/)
+- 💻 GitHub Repo: [NutriBot-Ai on GitHub](https://github.com/SHINE-18/Nutribot-Ai)
 
-User-defined http routes are defined in the `convex/router.ts` file. We split these routes into a separate file from `convex/http.ts` to allow us to prevent the LLM from modifying the authentication routes.
+---
+
+## 🚀 Features
+
+- User-friendly sign-in and sign-up (Convex Auth)
+- <img width="1919" height="1079" alt="Screenshot 2025-07-21 172430" src="https://github.com/user-attachments/assets/17015154-af12-4979-8d0f-a24655bfb754" />
+
+- Anonymous sign-in option for quick access
+- Personalized food analysis powered by OpenAI GPT
+- Health score (1–10) and smart alternatives
+- <img width="1919" height="1018" alt="image" src="https://github.com/user-attachments/assets/a46a8956-92bc-4fd3-b301-87a751cb39f9" />
+
+- Real-time chat interface with AI nutritionist
+- <img width="1919" height="1018" alt="Screenshot 2025-07-21 174031" src="https://github.com/user-attachments/assets/e099e0ba-7afe-4631-93ff-2fa2a865d047" />
+
+
+- Profile setup for personalized advice (allergies, goals, conditions)
+- <img width="1919" height="1079" alt="Screenshot 2025-07-21 172615" src="https://github.com/user-attachments/assets/c4a4d18f-ca31-402e-ae26-fa6d9e91020f" />
+
+- History tracking and food query logs
+- <img width="1919" height="871" alt="Screenshot 2025-07-21 174118" src="https://github.com/user-attachments/assets/a94df2e3-804c-411b-8f17-c0e89b45073e" />
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend:**
+- React 19
+- TypeScript
+- Vite
+- Tailwind CSS
+- Sonner (for notifications)
+
+**Backend:**
+- Convex (Reactive DB)
+- Convex Auth
+- OpenAI API (GPT-4o-mini)
+- LangGraph (AI agent workflows)
+
+---
+
+## 📦 Getting Started
+
+### Prerequisites
+
+- Node.js (v16+)
+- npm (Node package manager)
+- 
+
+
+
+
+
+
+
+
+
+
+### Installation
+
+```bash
+git clone https://github.com/SHINE-18/Nutribot-Ai.git
+cd Nutribot-Ai
+npm install
+npx convex dev (Backend)
+npm run dev (Frontend- Vite+dev)
+
+OPENAI_API_KEY=your_openai_key
+CONVEX_DEPLOYMENT=your_convex_project_url
+
+
