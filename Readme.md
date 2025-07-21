@@ -10,7 +10,7 @@ To help people like you and me figure out how healthy a food item is, get person
 
 ## 🌐 Live Demo
 
-- 🔗 Web App: [NutriBot Live](https://honorable-barracuda-624.convex.app/)
+
 - 💻 GitHub Repo: [NutriBot-Ai on GitHub](https://github.com/SHINE-18/Nutribot-Ai)
 
 ---
