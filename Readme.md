@@ -10,7 +10,7 @@ To help people like you and me figure out how healthy a food item is, get person
 
 ## 🌐 Live Demo
 
-
+- 💻 Demo live : https://687e333a76a884188d27434c--helpful-kataifi-847ecd.netlify.app/
 - 💻 GitHub Repo: [NutriBot-Ai on GitHub](https://github.com/SHINE-18/Nutribot-Ai)
 
 ---
