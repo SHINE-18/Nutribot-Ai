@@ -3,7 +3,7 @@
   publish = "dist"
 
 # Uncomment and customize the following if you need redirects or headers
-#[[redirects]]
-#  from = "/*"
-#  to = "/index.html"
-#  status = 200
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
